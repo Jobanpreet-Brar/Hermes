@@ -13,7 +13,7 @@ MARCH := rv32im
 
 DHRYSTONE_FLAGS := -O3 -DTIME -DRISCV
 
-CFLAGS := -mabi=$(MABI) -march=$(MARCH)
+CFLAGS := -mabi=$(MABI) -march=$(MARCH) -I/home/root1/riscv_toolchain/riscv-pk/machine
 CFLAG_LINKING := -Wl,--gc-sections
 
 command := $(firstword $(MAKECMDGOALS))
