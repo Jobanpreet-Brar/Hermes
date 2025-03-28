@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Mar 28 11:32:34 2025
+# Process ID: 177838
+# Current directory: /home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.runs/synth_1
+# Command line: vivado -log phoeniX.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source phoeniX.tcl
+# Log file: /home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.runs/synth_1/phoeniX.vds
+# Journal file: /home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.runs/synth_1/vivado.jou
+# Running On: root1, OS: Linux, CPU Frequency: 3999.484 MHz, CPU Physical cores: 4, Host memory: 8008 MB
+#-----------------------------------------------------------
+source phoeniX.tcl -notrace

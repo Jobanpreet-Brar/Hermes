@@ -1,0 +1,671 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Mar 28 11:32:34 2025
+# Process ID: 177838
+# Current directory: /home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.runs/synth_1
+# Command line: vivado -log phoeniX.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source phoeniX.tcl
+# Log file: /home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.runs/synth_1/phoeniX.vds
+# Journal file: /home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.runs/synth_1/vivado.jou
+# Running On: root1, OS: Linux, CPU Frequency: 3999.484 MHz, CPU Physical cores: 4, Host memory: 8008 MB
+#-----------------------------------------------------------
+source phoeniX.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1326.090 ; gain = 0.027 ; free physical = 988 ; free virtual = 8651
+Command: synth_design -top phoeniX -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 177856
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1699.867 ; gain = 373.777 ; free physical = 349 ; free virtual = 8012
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'divider_0_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:235]
+INFO: [Synth 8-11241] undeclared symbol 'divider_1_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:236]
+INFO: [Synth 8-11241] undeclared symbol 'divider_2_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:237]
+INFO: [Synth 8-11241] undeclared symbol 'divider_3_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:238]
+INFO: [Synth 8-11241] undeclared symbol 'output_ready', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:388]
+INFO: [Synth 8-11241] undeclared symbol 'multiplier_0_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:231]
+INFO: [Synth 8-11241] undeclared symbol 'multiplier_1_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:232]
+INFO: [Synth 8-11241] undeclared symbol 'multiplier_2_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:233]
+INFO: [Synth 8-11241] undeclared symbol 'multiplier_3_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:234]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Fetch_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:61]
+INFO: [Synth 8-9937] previous definition of design element 'Fetch_Unit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:61]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Incrementer' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:109]
+INFO: [Synth 8-9937] previous definition of design element 'Incrementer' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:109]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Incrementer_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:126]
+INFO: [Synth 8-9937] previous definition of design element 'Incrementer_Unit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:126]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Mux_2to1_Incrementer' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:152]
+INFO: [Synth 8-9937] previous definition of design element 'Mux_2to1_Incrementer' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:152]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Instruction_Decoder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Instruction_Decoder.v:108]
+INFO: [Synth 8-9937] previous definition of design element 'Instruction_Decoder' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Instruction_Decoder.v:108]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Immediate_Generator' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Immediate_Generator.v:31]
+INFO: [Synth 8-9937] previous definition of design element 'Immediate_Generator' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Immediate_Generator.v:31]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Register_File' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Register_File.v:64]
+INFO: [Synth 8-9937] previous definition of design element 'Register_File' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Register_File.v:64]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Arithmetic_Logic_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:338]
+INFO: [Synth 8-9937] previous definition of design element 'Arithmetic_Logic_Unit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:338]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Barrel_Shifter' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:372]
+INFO: [Synth 8-9937] previous definition of design element 'Barrel_Shifter' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:372]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Reverser_Circuit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:396]
+INFO: [Synth 8-9937] previous definition of design element 'Reverser_Circuit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:396]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Approximate_Accuracy_Controllable_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:541]
+INFO: [Synth 8-9937] previous definition of design element 'Approximate_Accuracy_Controllable_Adder' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:541]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Basic_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:558]
+INFO: [Synth 8-9937] previous definition of design element 'Basic_Unit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:558]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Mux_2to1' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:580]
+INFO: [Synth 8-9937] previous definition of design element 'Mux_2to1' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:580]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Error_Configurable_Ripple_Carry_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:614]
+INFO: [Synth 8-9937] previous definition of design element 'Error_Configurable_Ripple_Carry_Adder' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:614]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Ripple_Carry_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:646]
+INFO: [Synth 8-9937] previous definition of design element 'Ripple_Carry_Adder' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:646]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Error_Configurable_Full_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:660]
+INFO: [Synth 8-9937] previous definition of design element 'Error_Configurable_Full_Adder' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:660]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Full_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:673]
+INFO: [Synth 8-9937] previous definition of design element 'Full_Adder' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:673]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Half_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:684]
+INFO: [Synth 8-9937] previous definition of design element 'Half_Adder' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:684]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Jump_Branch_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Jump_Branch_Unit.v:47]
+INFO: [Synth 8-9937] previous definition of design element 'Jump_Branch_Unit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Jump_Branch_Unit.v:47]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Address_Generator' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:52]
+INFO: [Synth 8-9937] previous definition of design element 'Address_Generator' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:52]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Address_Generator_CLA' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:90]
+INFO: [Synth 8-9937] previous definition of design element 'Address_Generator_CLA' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:90]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Full_Adder_CLA' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:103]
+INFO: [Synth 8-9937] previous definition of design element 'Full_Adder_CLA' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:103]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Load_Store_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Load_Store_Unit.v:163]
+INFO: [Synth 8-9937] previous definition of design element 'Load_Store_Unit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Load_Store_Unit.v:163]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Hazard_Forward_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Hazard_Forward_Unit.v:50]
+INFO: [Synth 8-9937] previous definition of design element 'Hazard_Forward_Unit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Hazard_Forward_Unit.v:50]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Control_Status_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Control_Status_Unit.v:38]
+INFO: [Synth 8-9937] previous definition of design element 'Control_Status_Unit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Control_Status_Unit.v:38]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Control_Status_Register_File' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Control_Status_Register_File.v:116]
+INFO: [Synth 8-9937] previous definition of design element 'Control_Status_Register_File' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Control_Status_Register_File.v:116]
+INFO: [Synth 8-11241] undeclared symbol 'divider_0_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:235]
+INFO: [Synth 8-11241] undeclared symbol 'divider_1_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:236]
+INFO: [Synth 8-11241] undeclared symbol 'divider_2_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:237]
+INFO: [Synth 8-11241] undeclared symbol 'divider_3_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:238]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Divider_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:309]
+INFO: [Synth 8-9937] previous definition of design element 'Divider_Unit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:309]
+INFO: [Synth 8-11241] undeclared symbol 'output_ready', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:388]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Approximate_Accuracy_Controlable_Divider' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:427]
+INFO: [Synth 8-9937] previous definition of design element 'Approximate_Accuracy_Controlable_Divider' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:427]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Approximate_Accuracy_Controlable_Adder_Div' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:569]
+INFO: [Synth 8-9937] previous definition of design element 'Approximate_Accuracy_Controlable_Adder_Div' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:569]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Basic_Unit_Div' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:586]
+INFO: [Synth 8-9937] previous definition of design element 'Basic_Unit_Div' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:586]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Mux_2to1_Div' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:608]
+INFO: [Synth 8-9937] previous definition of design element 'Mux_2to1_Div' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:608]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Error_Configurable_Ripple_Carry_Adder_Div' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:642]
+INFO: [Synth 8-9937] previous definition of design element 'Error_Configurable_Ripple_Carry_Adder_Div' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:642]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Ripple_Carry_Adder_Div' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:674]
+INFO: [Synth 8-9937] previous definition of design element 'Ripple_Carry_Adder_Div' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:674]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Error_Configurable_Full_Adder_Div' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:688]
+INFO: [Synth 8-9937] previous definition of design element 'Error_Configurable_Full_Adder_Div' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:688]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Full_Adder_Div' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:701]
+INFO: [Synth 8-9937] previous definition of design element 'Full_Adder_Div' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:701]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Half_Adder_Div' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:712]
+INFO: [Synth 8-9937] previous definition of design element 'Half_Adder_Div' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:712]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'sample_divider' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:749]
+INFO: [Synth 8-9937] previous definition of design element 'sample_divider' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:749]
+INFO: [Synth 8-11241] undeclared symbol 'multiplier_0_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:231]
+INFO: [Synth 8-11241] undeclared symbol 'multiplier_1_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:232]
+INFO: [Synth 8-11241] undeclared symbol 'multiplier_2_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:233]
+INFO: [Synth 8-11241] undeclared symbol 'multiplier_3_enable_wire', assumed default net type 'wire' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:234]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Multiplier_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:307]
+INFO: [Synth 8-9937] previous definition of design element 'Multiplier_Unit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:307]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Approximate_Accuracy_Controllable_Multiplier' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:385]
+INFO: [Synth 8-9937] previous definition of design element 'Approximate_Accuracy_Controllable_Multiplier' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:385]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Approximate_Accuracy_Controllable_Multiplier_16bit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:460]
+INFO: [Synth 8-9937] previous definition of design element 'Approximate_Accuracy_Controllable_Multiplier_16bit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:460]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Approximate_Accuracy_Controllable_Multiplier_8bit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:561]
+INFO: [Synth 8-9937] previous definition of design element 'Approximate_Accuracy_Controllable_Multiplier_8bit' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:561]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'iCAC' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:584]
+INFO: [Synth 8-9937] previous definition of design element 'iCAC' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:584]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Error_Configurable_Full_Adder_Mul' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:598]
+INFO: [Synth 8-9937] previous definition of design element 'Error_Configurable_Full_Adder_Mul' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:598]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Full_Adder_Mul' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:611]
+INFO: [Synth 8-9937] previous definition of design element 'Full_Adder_Mul' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:611]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'Half_Adder_Mul' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:622]
+INFO: [Synth 8-9937] previous definition of design element 'Half_Adder_Mul' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:622]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'ATC_4' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:644]
+INFO: [Synth 8-9937] previous definition of design element 'ATC_4' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:644]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'ATC_8' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:676]
+INFO: [Synth 8-9937] previous definition of design element 'ATC_8' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:676]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'sample_multiplier' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:697]
+INFO: [Synth 8-9937] previous definition of design element 'sample_multiplier' is here [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:697]
+INFO: [Synth 8-6157] synthesizing module 'phoeniX' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/phoeniX.v:26]
+INFO: [Synth 8-6157] synthesizing module 'Multiplier_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:46]
+	Parameter GENERATE_CIRCUIT_1 bound to: 1 - type: integer 
+	Parameter GENERATE_CIRCUIT_2 bound to: 0 - type: integer 
+	Parameter GENERATE_CIRCUIT_3 bound to: 0 - type: integer 
+	Parameter GENERATE_CIRCUIT_4 bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Approximate_Accuracy_Controllable_Multiplier' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:312]
+INFO: [Synth 8-6157] synthesizing module 'Approximate_Accuracy_Controllable_Multiplier_16bit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:387]
+INFO: [Synth 8-6157] synthesizing module 'Approximate_Accuracy_Controllable_Multiplier_8bit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:462]
+INFO: [Synth 8-6157] synthesizing module 'ATC_8' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:646]
+INFO: [Synth 8-6157] synthesizing module 'iCAC' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:563]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter SHIFT_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'iCAC' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:563]
+INFO: [Synth 8-6155] done synthesizing module 'ATC_8' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:646]
+INFO: [Synth 8-6157] synthesizing module 'ATC_4' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:624]
+INFO: [Synth 8-6157] synthesizing module 'iCAC__parameterized0' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:563]
+	Parameter WIDTH bound to: 9 - type: integer 
+	Parameter SHIFT_BITS bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'iCAC__parameterized0' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:563]
+INFO: [Synth 8-6155] done synthesizing module 'ATC_4' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:624]
+INFO: [Synth 8-6157] synthesizing module 'iCAC__parameterized1' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:563]
+	Parameter WIDTH bound to: 11 - type: integer 
+	Parameter SHIFT_BITS bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'iCAC__parameterized1' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:563]
+INFO: [Synth 8-6157] synthesizing module 'Half_Adder_Mul' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:613]
+INFO: [Synth 8-6155] done synthesizing module 'Half_Adder_Mul' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:613]
+INFO: [Synth 8-6157] synthesizing module 'Full_Adder_Mul' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:600]
+INFO: [Synth 8-6155] done synthesizing module 'Full_Adder_Mul' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:600]
+INFO: [Synth 8-6157] synthesizing module 'Error_Configurable_Full_Adder_Mul' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:586]
+INFO: [Synth 8-6155] done synthesizing module 'Error_Configurable_Full_Adder_Mul' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:586]
+INFO: [Synth 8-6155] done synthesizing module 'Approximate_Accuracy_Controllable_Multiplier_8bit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:462]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:430]
+INFO: [Synth 8-6155] done synthesizing module 'Approximate_Accuracy_Controllable_Multiplier_16bit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:387]
+INFO: [Synth 8-6155] done synthesizing module 'Approximate_Accuracy_Controllable_Multiplier' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:312]
+INFO: [Synth 8-226] default block is never used [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:119]
+INFO: [Synth 8-226] default block is never used [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:132]
+INFO: [Synth 8-226] default block is never used [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:145]
+INFO: [Synth 8-226] default block is never used [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:158]
+INFO: [Synth 8-6155] done synthesizing module 'Multiplier_Unit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:46]
+INFO: [Synth 8-6157] synthesizing module 'Divider_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:46]
+	Parameter GENERATE_CIRCUIT_1 bound to: 1 - type: integer 
+	Parameter GENERATE_CIRCUIT_2 bound to: 0 - type: integer 
+	Parameter GENERATE_CIRCUIT_3 bound to: 0 - type: integer 
+	Parameter GENERATE_CIRCUIT_4 bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'sample_divider' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:717]
+INFO: [Synth 8-6155] done synthesizing module 'sample_divider' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:717]
+INFO: [Synth 8-226] default block is never used [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:126]
+INFO: [Synth 8-226] default block is never used [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:138]
+INFO: [Synth 8-226] default block is never used [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:150]
+INFO: [Synth 8-226] default block is never used [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:162]
+INFO: [Synth 8-6155] done synthesizing module 'Divider_Unit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:46]
+INFO: [Synth 8-6157] synthesizing module 'Fetch_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Incrementer' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:63]
+	Parameter LEN bound to: 30 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Incrementer_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'Incrementer_Unit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:111]
+INFO: [Synth 8-6157] synthesizing module 'Mux_2to1_Incrementer' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:128]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_2to1_Incrementer' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:128]
+INFO: [Synth 8-6155] done synthesizing module 'Incrementer' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'Fetch_Unit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Fetch_Unit.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Decoder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Instruction_Decoder.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Decoder' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Instruction_Decoder.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Immediate_Generator' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Immediate_Generator.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Immediate_Generator' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Immediate_Generator.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Arithmetic_Logic_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:49]
+	Parameter GENERATE_CIRCUIT_1 bound to: 1 - type: integer 
+	Parameter GENERATE_CIRCUIT_2 bound to: 0 - type: integer 
+	Parameter GENERATE_CIRCUIT_3 bound to: 0 - type: integer 
+	Parameter GENERATE_CIRCUIT_4 bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Approximate_Accuracy_Controllable_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:401]
+	Parameter LEN bound to: 32 - type: integer 
+	Parameter APX_LEN bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Half_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:675]
+INFO: [Synth 8-6155] done synthesizing module 'Half_Adder' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:675]
+INFO: [Synth 8-6157] synthesizing module 'Error_Configurable_Ripple_Carry_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:582]
+	Parameter LEN bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Error_Configurable_Full_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:648]
+INFO: [Synth 8-6155] done synthesizing module 'Error_Configurable_Full_Adder' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:648]
+INFO: [Synth 8-6155] done synthesizing module 'Error_Configurable_Ripple_Carry_Adder' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:582]
+INFO: [Synth 8-6157] synthesizing module 'Basic_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:543]
+INFO: [Synth 8-6155] done synthesizing module 'Basic_Unit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:543]
+INFO: [Synth 8-6157] synthesizing module 'Mux_2to1' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:560]
+	Parameter LEN bound to: 5 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:574]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_2to1' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:560]
+INFO: [Synth 8-6157] synthesizing module 'Ripple_Carry_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:616]
+	Parameter LEN bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Full_Adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:662]
+INFO: [Synth 8-6155] done synthesizing module 'Full_Adder' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:662]
+INFO: [Synth 8-6155] done synthesizing module 'Ripple_Carry_Adder' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:616]
+INFO: [Synth 8-6157] synthesizing module 'Error_Configurable_Ripple_Carry_Adder__parameterized0' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:582]
+	Parameter LEN bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Error_Configurable_Ripple_Carry_Adder__parameterized0' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:582]
+INFO: [Synth 8-6155] done synthesizing module 'Approximate_Accuracy_Controllable_Adder' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:401]
+WARNING: [Synth 8-7071] port 'Cout' of module 'Approximate_Accuracy_Controllable_Adder' is unconnected for instance 'approximate_accuracy_controllable_adder' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:300]
+WARNING: [Synth 8-7023] instance 'approximate_accuracy_controllable_adder' of module 'Approximate_Accuracy_Controllable_Adder' has 6 connections declared, but only 5 given [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:300]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:140]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:192]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:235]
+INFO: [Synth 8-226] default block is never used [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:261]
+INFO: [Synth 8-6157] synthesizing module 'Barrel_Shifter' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:340]
+INFO: [Synth 8-6157] synthesizing module 'Reverser_Circuit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:374]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Reverser_Circuit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:374]
+INFO: [Synth 8-6155] done synthesizing module 'Barrel_Shifter' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:340]
+INFO: [Synth 8-6155] done synthesizing module 'Arithmetic_Logic_Unit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:49]
+INFO: [Synth 8-6157] synthesizing module 'Address_Generator' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Address_Generator_CLA' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:54]
+	Parameter LEN bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Full_Adder_CLA' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:92]
+INFO: [Synth 8-6155] done synthesizing module 'Full_Adder_CLA' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:92]
+INFO: [Synth 8-6155] done synthesizing module 'Address_Generator_CLA' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:54]
+WARNING: [Synth 8-7071] port 'C_out' of module 'Address_Generator_CLA' is unconnected for instance 'address_generator' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:44]
+WARNING: [Synth 8-7023] instance 'address_generator' of module 'Address_Generator_CLA' has 5 connections declared, but only 4 given [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'Address_Generator' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Address_Generator.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Jump_Branch_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Jump_Branch_Unit.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Jump_Branch_Unit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Jump_Branch_Unit.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Control_Status_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Control_Status_Unit.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Status_Unit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Control_Status_Unit.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Load_Store_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Load_Store_Unit.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Load_Store_Unit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Load_Store_Unit.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Hazard_Forward_Unit' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Hazard_Forward_Unit.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Hazard_Forward_Unit' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Hazard_Forward_Unit.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Register_File' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Register_File.v:13]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register_File' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Register_File.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Control_Status_Register_File' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Control_Status_Register_File.v:13]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Control_Status_Register_File.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'Control_Status_Register_File' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Control_Status_Register_File.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'phoeniX' (0#1) [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/phoeniX.v:26]
+WARNING: [Synth 8-3848] Net multiplier_3_busy in module/entity Multiplier_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:94]
+WARNING: [Synth 8-3848] Net multiplier_2_busy in module/entity Multiplier_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:93]
+WARNING: [Synth 8-3848] Net multiplier_1_busy in module/entity Multiplier_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:92]
+WARNING: [Synth 8-3848] Net multiplier_1_result in module/entity Multiplier_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:87]
+WARNING: [Synth 8-3848] Net multiplier_2_result in module/entity Multiplier_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:88]
+WARNING: [Synth 8-3848] Net multiplier_3_result in module/entity Multiplier_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:89]
+WARNING: [Synth 8-3848] Net divider_3_busy in module/entity Divider_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:102]
+WARNING: [Synth 8-3848] Net divider_2_busy in module/entity Divider_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:101]
+WARNING: [Synth 8-3848] Net divider_1_busy in module/entity Divider_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:100]
+WARNING: [Synth 8-3848] Net divider_1_result in module/entity Divider_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:90]
+WARNING: [Synth 8-3848] Net divider_2_result in module/entity Divider_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:91]
+WARNING: [Synth 8-3848] Net divider_3_result in module/entity Divider_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:92]
+WARNING: [Synth 8-3848] Net divider_1_remainder in module/entity Divider_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:95]
+WARNING: [Synth 8-3848] Net divider_2_remainder in module/entity Divider_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:96]
+WARNING: [Synth 8-3848] Net divider_3_remainder in module/entity Divider_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:97]
+WARNING: [Synth 8-3848] Net adder_1_result in module/entity Arithmetic_Logic_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:90]
+WARNING: [Synth 8-3848] Net adder_2_result in module/entity Arithmetic_Logic_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:91]
+WARNING: [Synth 8-3848] Net adder_3_result in module/entity Arithmetic_Logic_Unit does not have driver. [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:92]
+WARNING: [Synth 8-6014] Unused sequential element instruction_type_MW_reg_reg was removed.  [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/phoeniX.v:466]
+WARNING: [Synth 8-6014] Unused sequential element pc_MW_reg_reg was removed.  [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/phoeniX.v:472]
+WARNING: [Synth 8-7129] Port Er[4] in module Approximate_Accuracy_Controllable_Adder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[31] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[30] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[29] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[28] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[27] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[26] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[25] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[24] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[23] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[22] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[21] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[20] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[19] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[18] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[17] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[16] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[15] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[14] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[13] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[12] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[11] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[31] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[30] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[29] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[28] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[27] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[26] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[25] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[24] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[23] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[22] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[21] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[20] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[19] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[18] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[17] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[16] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[15] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[14] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[13] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[12] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[11] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[10] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[9] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[8] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[7] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[6] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[5] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[4] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[3] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[0] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[31] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[30] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[29] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[28] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[27] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[26] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[25] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[24] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[23] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[22] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[21] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[20] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[19] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[18] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[17] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[16] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[15] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[14] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[13] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[12] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[11] in module Multiplier_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[10] in module Multiplier_Unit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1790.805 ; gain = 464.715 ; free physical = 252 ; free virtual = 7916
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1805.648 ; gain = 479.559 ; free physical = 252 ; free virtual = 7917
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1813.652 ; gain = 487.562 ; free physical = 252 ; free virtual = 7917
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-802] inferred FSM for state register 'signal_state_reg' in module 'Multiplier_Unit'
+INFO: [Synth 8-802] inferred FSM for state register 'signal_state_reg' in module 'Divider_Unit'
+WARNING: [Synth 8-327] inferring latch for variable 'Result_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:450]
+WARNING: [Synth 8-327] inferring latch for variable 'Busy_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:441]
+WARNING: [Synth 8-327] inferring latch for variable 'partial_result_2_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:437]
+WARNING: [Synth 8-327] inferring latch for variable 'partial_result_3_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:438]
+WARNING: [Synth 8-327] inferring latch for variable 'partial_result_4_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:439]
+WARNING: [Synth 8-327] inferring latch for variable 'partial_result_1_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:436]
+WARNING: [Synth 8-327] inferring latch for variable 'mul_input_1_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:412]
+WARNING: [Synth 8-327] inferring latch for variable 'mul_input_2_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:413]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             signal_zero |                               00 |                               00
+             signal_high |                               01 |                               01
+              signal_low |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'signal_state_reg' using encoding 'sequential' in module 'Multiplier_Unit'
+WARNING: [Synth 8-327] inferring latch for variable 'state_machine_enable_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:184]
+WARNING: [Synth 8-327] inferring latch for variable 'multiplier_unit_output_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:118]
+WARNING: [Synth 8-327] inferring latch for variable 'input_1_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:116]
+WARNING: [Synth 8-327] inferring latch for variable 'input_2_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Multiplier_Unit.v:117]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             signal_zero |                               00 |                               00
+             signal_high |                               01 |                               01
+              signal_low |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'signal_state_reg' using encoding 'sequential' in module 'Divider_Unit'
+WARNING: [Synth 8-327] inferring latch for variable 'state_machine_enable_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:188]
+WARNING: [Synth 8-327] inferring latch for variable 'divider_unit_output_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:125]
+WARNING: [Synth 8-327] inferring latch for variable 'input_1_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:123]
+WARNING: [Synth 8-327] inferring latch for variable 'input_2_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Divider_Unit.v:124]
+WARNING: [Synth 8-327] inferring latch for variable 'alu_output_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:112]
+WARNING: [Synth 8-327] inferring latch for variable 'adder_enable_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:227]
+WARNING: [Synth 8-327] inferring latch for variable 'adder_input_1_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:228]
+WARNING: [Synth 8-327] inferring latch for variable 'adder_input_2_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:229]
+WARNING: [Synth 8-327] inferring latch for variable 'adder_Cin_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:230]
+WARNING: [Synth 8-327] inferring latch for variable 'shift_input_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:116]
+WARNING: [Synth 8-327] inferring latch for variable 'shift_amount_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:116]
+WARNING: [Synth 8-327] inferring latch for variable 'shift_direction_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v:116]
+WARNING: [Synth 8-327] inferring latch for variable 'load_data_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Load_Store_Unit.v:112]
+WARNING: [Synth 8-327] inferring latch for variable 'store_data_reg_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/Modules/Load_Store_Unit.v:103]
+WARNING: [Synth 8-327] inferring latch for variable 'instruction_FD_reg_reg' [/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.srcs/sources_1/imports/Hermes/phoeniX.v:111]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1835.605 ; gain = 509.516 ; free physical = 259 ; free virtual = 7948
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input   64 Bit       Adders := 1     
+	   4 Input   32 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 92    
+	   3 Input      1 Bit         XORs := 106   
++---Registers : 
+	               32 Bit    Registers := 48    
+	               12 Bit    Registers := 3     
+	                7 Bit    Registers := 4     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 7     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   5 Input   32 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 26    
+	   6 Input   32 Bit        Muxes := 2     
+	   3 Input   32 Bit        Muxes := 2     
+	   7 Input   32 Bit        Muxes := 2     
+	   4 Input   32 Bit        Muxes := 4     
+	   9 Input   32 Bit        Muxes := 3     
+	   2 Input   16 Bit        Muxes := 3     
+	   7 Input    8 Bit        Muxes := 12    
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 4     
+	   2 Input    5 Bit        Muxes := 13    
+	   7 Input    4 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 8     
+	  15 Input    3 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   7 Input    1 Bit        Muxes := 37    
+	   4 Input    1 Bit        Muxes := 15    
+	   5 Input    1 Bit        Muxes := 11    
+	   2 Input    1 Bit        Muxes := 64    
+	   3 Input    1 Bit        Muxes := 11    
+	   8 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port Er[4] in module Approximate_Accuracy_Controllable_Adder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[31] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[30] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[29] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[28] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[27] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[26] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[25] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[24] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[23] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[22] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[21] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[20] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[19] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[18] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[17] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[16] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[15] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[14] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[13] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[12] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[11] in module Arithmetic_Logic_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[31] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[30] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[29] in module Divider_Unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port control_status_register[28] in module Divider_Unit is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (Multiplier_1_Generate_Block.approximate_accuracy_controllable_multiplier/multiplier_LOWxLOW/Busy_reg) is unused and will be removed from module Multiplier_Unit.
+WARNING: [Synth 8-3332] Sequential element (Multiplier_1_Generate_Block.approximate_accuracy_controllable_multiplier/multiplier_HIGHxLOW/Busy_reg) is unused and will be removed from module Multiplier_Unit.
+WARNING: [Synth 8-3332] Sequential element (Multiplier_1_Generate_Block.approximate_accuracy_controllable_multiplier/multiplier_LOWxHIGH/Busy_reg) is unused and will be removed from module Multiplier_Unit.
+WARNING: [Synth 8-3332] Sequential element (Multiplier_1_Generate_Block.approximate_accuracy_controllable_multiplier/multiplier_HIGHxHIGH/Busy_reg) is unused and will be removed from module Multiplier_Unit.
+WARNING: [Synth 8-3332] Sequential element (state_machine_enable_reg) is unused and will be removed from module Multiplier_Unit.
+WARNING: [Synth 8-3332] Sequential element (state_machine_enable_reg) is unused and will be removed from module Divider_Unit.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 195 ; free virtual = 7602
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 195 ; free virtual = 7603
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 201 ; free virtual = 7609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 202 ; free virtual = 7609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 202 ; free virtual = 7610
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 202 ; free virtual = 7610
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 202 ; free virtual = 7610
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 202 ; free virtual = 7609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 202 ; free virtual = 7609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |    12|
+|2     |CARRY4 |   670|
+|3     |LUT1   |   123|
+|4     |LUT2   |   761|
+|5     |LUT3   |  2050|
+|6     |LUT4   |   739|
+|7     |LUT5   |   397|
+|8     |LUT6   |  1449|
+|9     |MUXF7  |   288|
+|10    |FDCE   |  1120|
+|11    |FDRE   |   704|
+|12    |FDSE   |     8|
+|13    |LD     |   901|
+|14    |IBUF   |    34|
+|15    |IOBUF  |    32|
+|16    |OBUF   |     2|
+|17    |OBUFT  |    74|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------------------------------------------------------------------+-----------------------------------------------------+------+
+|      |Instance                                                                       |Module                                               |Cells |
++------+-------------------------------------------------------------------------------+-----------------------------------------------------+------+
+|1     |top                                                                            |                                                     |  9364|
+|2     |  \M_EXTENSION_Generate_Block.divider_unit                                     |Divider_Unit                                         |  3127|
+|3     |    \Divider_1_Generate_Block.div                                              |sample_divider                                       |  2992|
+|4     |  \M_EXTENSION_Generate_Block.multiplier_unit                                  |Multiplier_Unit                                      |  2065|
+|5     |    \Multiplier_1_Generate_Block.approximate_accuracy_controllable_multiplier  |Approximate_Accuracy_Controllable_Multiplier         |  1390|
+|6     |      multiplier_HIGHxHIGH                                                     |Approximate_Accuracy_Controllable_Multiplier_16bit   |   322|
+|7     |      multiplier_HIGHxLOW                                                      |Approximate_Accuracy_Controllable_Multiplier_16bit_0 |   377|
+|8     |      multiplier_LOWxHIGH                                                      |Approximate_Accuracy_Controllable_Multiplier_16bit_1 |   317|
+|9     |      multiplier_LOWxLOW                                                       |Approximate_Accuracy_Controllable_Multiplier_16bit_2 |   350|
+|10    |  arithmetic_logic_unit                                                        |Arithmetic_Logic_Unit                                |   682|
+|11    |  control_status_register_file                                                 |Control_Status_Register_File                         |   462|
+|12    |  load_store_unit                                                              |Load_Store_Unit                                      |   331|
+|13    |  register_file                                                                |Register_File                                        |  1930|
++------+-------------------------------------------------------------------------------+-----------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 202 ; free virtual = 7609
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 48 critical warnings and 206 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2149.027 ; gain = 822.938 ; free physical = 202 ; free virtual = 7609
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2149.035 ; gain = 822.938 ; free physical = 202 ; free virtual = 7609
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2149.035 ; gain = 0.000 ; free physical = 481 ; free virtual = 7889
+INFO: [Netlist 29-17] Analyzing 1891 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2205.055 ; gain = 0.000 ; free physical = 474 ; free virtual = 7893
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 933 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 32 instances
+  LD => LDCE: 901 instances
+
+Synth Design complete | Checksum: 5cf5e2c7
+INFO: [Common 17-83] Releasing license: Synthesis
+182 Infos, 158 Warnings, 48 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:38 . Memory (MB): peak = 2205.090 ; gain = 879.000 ; free physical = 474 ; free virtual = 7893
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1817.786; main = 1496.706; forked = 377.873
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3139.508; main = 2205.059; forked = 990.477
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2229.066 ; gain = 0.000 ; free physical = 473 ; free virtual = 7893
+INFO: [Common 17-1381] The checkpoint '/home/root1/Jobanpreet/Hermes/Hermes_FPGA/Hermes_FPGA.runs/synth_1/phoeniX.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file phoeniX_utilization_synth.rpt -pb phoeniX_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 28 11:33:21 2025...

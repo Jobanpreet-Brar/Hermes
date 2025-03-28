@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1743141752">
+  <File Type="VDS-TIMINGSUMMARY" Name="phoeniX_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="phoeniX.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="phoeniX_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="phoeniX_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="phoeniX_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="phoeniX.vds"/>
+  <File Type="REPORTS-TCL" Name="phoeniX_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="phoeniX_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="phoeniX.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Defines.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Defines.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Address_Generator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Address_Generator.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Arithmetic_Logic_Unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Arithmetic_Logic_Unit.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Control_Status_Register_File.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Control_Status_Register_File.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Control_Status_Unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Control_Status_Unit.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Divider_Unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Divider_Unit.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Fetch_Unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Fetch_Unit.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Hazard_Forward_Unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Hazard_Forward_Unit.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Immediate_Generator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Immediate_Generator.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Instruction_Decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Instruction_Decoder.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Jump_Branch_Unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Jump_Branch_Unit.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Load_Store_Unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Load_Store_Unit.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Multiplier_Unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Multiplier_Unit.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/Modules/Register_File.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Modules/Register_File.v"/>
+        <Attr Name="ImportTime" Val="1741599098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Hermes/phoeniX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../phoeniX.v"/>
+        <Attr Name="ImportTime" Val="1741599099"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="phoeniX"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
